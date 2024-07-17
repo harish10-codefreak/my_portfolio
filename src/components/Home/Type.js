@@ -9,7 +9,7 @@ function Type() {
           "Software Developer",
           "Freelancer",
           "Web Designer",
-          "Social Worker",
+          "Vizag Volunteer",
         ],
         autoStart: true,
         loop: true,

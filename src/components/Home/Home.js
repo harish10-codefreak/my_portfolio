@@ -1,15 +1,15 @@
+// src/components/Home/Home.js
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
-import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import LottieAnimation from "./Lottie";
+
 
 function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -31,12 +31,9 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
+              <div style={{ maxHeight: "450px", width: "100%", height: "100%" }}>
+                <LottieAnimation /> {/* Replace the homeLogo image with the LottieAnimation component */}
+              </div>
             </Col>
           </Row>
         </Container>

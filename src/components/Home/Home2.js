@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with Technologies since from my childhood.Whenever i found something new i won't leave it untill i learnt it. 
+              I fell in love with Technologies from my childhood.Whenever i found something new i won't leave it untill i learnt it. 
               <br />
               <br />I am fluent in classics like
               <i>
