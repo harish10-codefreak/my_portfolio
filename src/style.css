@@ -15,7 +15,7 @@ html {
 }
 
 .purple {
-  color: white;
+  color: rgb(0, 255, 76);
 }
 
 button:focus {
@@ -573,8 +573,8 @@ background-size: cover; */
   font-size: 4.5em !important;
   margin: 15px !important;
   padding: 10px !important;
-  opacity: 0.93 !important;
-  border: 1.7px solid rgba(174, 0, 255, 0.637) !important;
+  color: #FFFFFF !important;  /* Set color to white */
+  border: 1.7px solid rgb(255, 255, 255) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
@@ -584,6 +584,7 @@ background-size: cover; */
   transition: all 0.4s ease 0s !important;
 }
 
+
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
@@ -591,10 +592,12 @@ background-size: cover; */
 }
 
 .tech-icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
+  transform: scale(1.1) !important; /* Slightly larger scale */
+  background-color: rgba(255, 255, 255, 0.1) !important; /* Light background color */
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  color: #C573E6 !important; /* Light purple color */
 }
+
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
